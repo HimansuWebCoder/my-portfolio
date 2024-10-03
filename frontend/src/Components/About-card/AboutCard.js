@@ -5,7 +5,7 @@ function AboutCard() {
 	return (
 		<div className="about-container">
 			<div className="profile-img-container">
-				<img src="/assets/images/user.png" />
+				<img src="/assets/images/user.png" alt="img" />
 			</div>
 			<hr className="bar" />
 			<h1>Himansu Naik</h1>

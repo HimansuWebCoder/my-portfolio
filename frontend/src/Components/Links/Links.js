@@ -11,6 +11,7 @@ function Links() {
 						<img
 							className="links-icon"
 							src="/assets/images/linkedin.png"
+							alt="img"
 						/>
 					</a>
 				</li>
@@ -22,6 +23,7 @@ function Links() {
 						<img
 							className="links-icon"
 							src="/assets/images/github.png"
+							alt="img"
 						/>
 					</a>
 				</li>
@@ -30,6 +32,7 @@ function Links() {
 						<img
 							className="links-icon"
 							src="/assets/images/linkedin.png"
+							alt="img"
 						/>
 					</a>
 				</li>

@@ -1,0 +1,15 @@
+.logo-container {
+	width: 20%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.home-route-link {
+	text-decoration: none;
+}
+
+#profile-img {
+	width: 60px;
+	height: 60px;
+}

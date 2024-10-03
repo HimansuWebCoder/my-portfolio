@@ -1,0 +1,65 @@
+.nav-container {
+	max-width: 100vw;
+	height: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	padding: 20px;
+	/*	word-wrap: break-word;*/
+	word-break: break-word;
+	position: sticky;
+	top: 0px;
+	background-color: rgba(0, 0, 0, 0.2);
+	/*	border-bottom: 1px solid black;*/
+	z-index: 100;
+	background: rgba(255, 255, 255, 0.1);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+}
+
+.routes-container {
+	max-width: 40%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	/*	border: 1px solid bl ue;*/
+}
+
+.links-container {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	margin: auto;
+	padding: 0;
+}
+
+.links-container > li > a {
+	text-decoration: none;
+	margin: 5px;
+}
+
+/*.menu-container {
+	width: 40px;
+	height: 30px;
+	display: none;
+	border: none;
+}
+
+.menu-container > div {
+	width: 100%;
+	min-height: 28%;
+	background: red;
+	margin: 1px;
+}*/
+
+@media screen and (max-width: 567px) {
+	.routes-container {
+		max-width: 250px;
+	}
+}

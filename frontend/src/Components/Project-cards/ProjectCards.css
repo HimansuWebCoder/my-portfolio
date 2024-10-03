@@ -1,0 +1,93 @@
+.project-cards-container {
+	/*	width: 50vw;*/
+	max-width: 50%;
+	height: auto;
+	/*	border: 1px solid blue;*/
+	padding: 10px;
+	margin: auto;
+	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	word-break: break-word;
+	font-size: 1rem;
+	border-radius: 10px;
+	box-shadow: 0.1px 0.1px 1px 0.2px black;
+}
+
+.project-view-card {
+	width: 40%;
+	/*	max-width: 200px;*/
+	height: auto;
+	/*	border: 1px inset red;*/
+	border-color: grey;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	background-image: url("https://img.freepik.com/free-vector/colleagues-working-together-project-flat-illustration_74855-9520.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+}
+
+.project-view-card > ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.project-view-card > ul > li > a {
+	text-decoration: none;
+	margin: 2px;
+}
+
+.project-info-card {
+	width: 55%;
+	/*	max-width: 400px;*/
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/*	padding: 5px;*/
+	word-break: break-word;
+	text-align: center;
+}
+
+@media screen and (max-width: 571px) {
+	.project-cards-container {
+		max-width: 90%;
+		height: auto;
+		font-size: 0.6rem;
+		overflow: hidden;
+	}
+	.project-view-card {
+		width: 30%;
+		min-height: 100%;
+	}
+
+	.project-view-card > ul > li > a {
+		color: white;
+		font-size: 0.9rem;
+		background-color: black;
+	}
+
+	.project-info-card {
+		width: 50%;
+		height: 100%;
+		font-size: 0.6rem;
+		overflow: auto;
+		padding: 10px;
+	}
+}
+
+@media screen and (max-width: 963) and (min-width: 532px) {
+	.project-view-card {
+		max-width: 100%;
+	}
+
+	.project-info-card {
+		/*		width: 100%;*/
+		max-width: 100%;
+	}
+}

@@ -1,0 +1,22 @@
+.social-links-container {
+	max-width: 200px;
+	height: auto;
+	/*	border: 1px solid black;*/
+}
+
+.social-links-sub-container {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 0;
+}
+
+.social-links-sub-container > li > a {
+	text-decoration: none;
+	margin: 5px;
+}
+
+.links-icon {
+	width: 40px;
+}

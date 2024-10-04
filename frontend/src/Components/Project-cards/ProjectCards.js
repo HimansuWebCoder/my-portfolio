@@ -6,11 +6,34 @@ function ProjectCards({
 	githubLink,
 	liveLink,
 	sourceCodeLink,
+	projectImg,
+	projectTechInfo,
 }) {
 	return (
 		<div className="project-cards-container">
 			<div className="project-view-card">
-				<ul>
+				<img src={projectImg} alt="project-image" />
+			</div>
+			<div className="project-info-card">
+				<h1>{title}</h1>
+				<h2>{projectTechInfo}</h2>
+				<a href="" rel="noopener noreferrer">
+					Live
+				</a>
+				<a href="" rel="noopener noreferrer">
+					Live
+				</a>
+				<hr className="bar" />
+				<p>{description}</p>
+			</div>
+		</div>
+	);
+}
+
+export default ProjectCards;
+
+/*
+<ul>
 					<li>
 						<a
 							href={githubLink}
@@ -39,15 +62,4 @@ function ProjectCards({
 						</a>
 					</li>
 				</ul>
-			</div>
-			<div className="project-info-card">
-				<h1>{title}</h1>
-				<h2>Frontend-End Project</h2>
-				<hr className="bar" />
-				<p>{description}</p>
-			</div>
-		</div>
-	);
-}
-
-export default ProjectCards;
+				*/

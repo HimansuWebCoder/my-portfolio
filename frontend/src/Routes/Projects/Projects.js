@@ -1,14 +1,17 @@
 import ProjectCard from "../../Components/Project-cards/ProjectCards";
+import "./Projects.css";
 
 function Projects() {
 	return (
-		<div>
+		<div className="projects-container">
 			<ProjectCard
 				title="Cats-Friends Web Applications"
 				description="A cats-friends colony to choose your cats"
 				githubLink="https://github.com/HimansuWebCoder"
 				liveLink="https://himansuWebCoder.github.io/Cats-Friend-Hooks/"
 				sourceCodeLink="https://github.com/HimansuWebCoder/Cats-Friend-Hooks"
+				projectImg="/assets/images/cats-friends.png"
+				projectTechInfo="Frontend Project"
 			/>
 			<ProjectCard
 				title="Robo-Friends Web Application"
@@ -16,6 +19,8 @@ function Projects() {
 				githubLink="https://github.com/HimansuWebCoder"
 				liveLink="https://himansuWebCoder.github.io/robofriends"
 				sourceCodeLink="https://github.com/HimansuWebCoder/robofriends"
+				projectImg="/assets/images/robo-friends.png"
+				projectTechInfo="Frontend Project"
 			/>
 			<ProjectCard />
 			<ProjectCard />

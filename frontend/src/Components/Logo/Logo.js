@@ -5,11 +5,7 @@ function Logo() {
 	return (
 		<div className="logo-container">
 			<Link className="home-route-link" to="/">
-				<img
-					id="profile-img"
-					src="/assets/images/user.png"
-					alt="logo"
-				/>
+				<img id="profile-img" src="/logo.jpg" alt="logo" />
 			</Link>
 		</div>
 	);

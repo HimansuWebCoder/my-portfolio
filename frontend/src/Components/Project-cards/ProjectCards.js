@@ -14,12 +14,18 @@ function ProjectCards() {
 						</a>
 					</li>
 					<li>
-						<a href="/" target="_blank">
+						<a
+							href="/https://himansuwebcoder.github.io/Cats-Friend-Hooks/"
+							target="_blank"
+						>
 							GitHub Live Preview
 						</a>
 					</li>
 					<li>
-						<a href="/" target="_blank">
+						<a
+							href="/https://github.com/HimansuWebCoder/Cats-Friend-Hooks"
+							target="_blank"
+						>
 							Source Code
 						</a>
 					</li>

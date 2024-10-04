@@ -1,0 +1,19 @@
+.Services-container {
+	max-width: 100%;
+	height: auto;
+	/*	border: 1px solid black;*/
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.Service-bucket {
+	max-width: 800px;
+	height: auto;
+	border: 1px solid black;
+	margin: auto;
+	padding: 10px;
+	border-radius: 10px;
+	background: #fff7fc;
+}

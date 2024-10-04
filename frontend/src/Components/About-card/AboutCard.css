@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Protest+Strike&family=Sixtyfour+Convergence&display=swap");
 .about-container {
 	width: 80vw;
 	height: auto;
@@ -19,6 +20,10 @@
 #logo {
 	width: 200px;
 	height: 200px;
+}
+
+#profile-name {
+	font-family: "Josefin Sans", sans-serif;
 }
 
 .profile-img-container {

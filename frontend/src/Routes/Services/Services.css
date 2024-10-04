@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Ultra|Work+Sans:400,500|Montserrat:400");
+
 .Services-container {
 	max-width: 100%;
 	height: auto;
@@ -20,14 +22,14 @@
 	background-color: #e5d9f2;
 	/*	background: hsla(200, 90%, 20%, 0.9);*/
 	color: black;
-	font-family: monospace;
-	font-weight: initial;
 	font-size: 1rem;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	text-align: center;
 	box-shadow: 1px 1px 2px 0.4px black;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 400;
 }
 
 @media screen and (max-width: 425px) {

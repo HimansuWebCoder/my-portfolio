@@ -15,7 +15,17 @@ function AboutCard() {
 					to my portfolio
 				</p>
 			</div>
-			<Links />
+			<div className="links-container">
+				<Links
+					url="https://www.linkedin.com/in/himansunaik/"
+					img="/assets/images/linkedin.png"
+				/>
+
+				<Links
+					url="https://github.com/HimansuWebCoder"
+					img="/assets/images/github.png"
+				/>
+			</div>
 		</div>
 	);
 }

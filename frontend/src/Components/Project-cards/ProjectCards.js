@@ -1,30 +1,39 @@
 import "./ProjectCards.css";
 
-function ProjectCards() {
+function ProjectCards({
+	title,
+	description,
+	githubLink,
+	liveLink,
+	sourceCodeLink,
+}) {
 	return (
 		<div className="project-cards-container">
 			<div className="project-view-card">
 				<ul>
 					<li>
 						<a
-							href="https://github.com/HimansuWebCoder"
+							href={githubLink}
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							Himansu
 						</a>
 					</li>
 					<li>
 						<a
-							href="https://himansuwebcoder.github.io/Cats-Friend-Hooks/"
+							href={liveLink}
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							GitHub Live Preview
 						</a>
 					</li>
 					<li>
 						<a
-							href="https://github.com/HimansuWebCoder/Cats-Friend-Hooks"
+							href={sourceCodeLink}
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							Source Code
 						</a>
@@ -32,10 +41,10 @@ function ProjectCards() {
 				</ul>
 			</div>
 			<div className="project-info-card">
-				<h1>Cats-Friends Web Application</h1>
+				<h1>{title}</h1>
 				<h2>Frontend-End Project</h2>
 				<hr className="bar" />
-				<p>A cats-friends colony to choose your cats</p>
+				<p>{description}</p>
 			</div>
 		</div>
 	);

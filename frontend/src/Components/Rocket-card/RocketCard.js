@@ -11,8 +11,8 @@ function RocketCard() {
 				/>
 			</div>
 			<div className="rocket-card-info">
-				<h2>Himansu Naik</h2>
-				<h3>Full-Stack Javascript Developer</h3>
+				<h2 id="profile-about-name">Himansu Naik</h2>
+				<p id="profile-about-description">Full-Stack Javascript Developer</p>
 			</div>
 		</div>
 	);

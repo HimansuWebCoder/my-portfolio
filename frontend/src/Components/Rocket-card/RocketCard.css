@@ -12,6 +12,15 @@
 	border-radius: 50px;
 }
 
+#profile-about-name {
+font-family: "Josefin Sans", sans-serif;
+}
+
+#profile-about-description {
+	font-family: "EB Garamond", serif;
+	font-size: 1rem;
+}
+
 .rocket-img-container {
 	width: 50%;
 	height: 200px;

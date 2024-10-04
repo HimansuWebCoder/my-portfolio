@@ -10,7 +10,7 @@ function AboutCard() {
 			<hr className="bar" />
 			<h1 id="profile-name">Himansu Naik</h1>
 			<div className="about-description-container">
-				<p>
+				<p id="profile-intro">
 					Hii, I am Himansu, Full-stack Javascript Developer, Welcome
 					to my portfolio
 				</p>

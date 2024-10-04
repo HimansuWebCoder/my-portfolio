@@ -15,7 +15,7 @@ function ProjectCards() {
 					</li>
 					<li>
 						<a
-							href="/https://himansuwebcoder.github.io/Cats-Friend-Hooks/"
+							href="https://himansuwebcoder.github.io/Cats-Friend-Hooks/"
 							target="_blank"
 						>
 							GitHub Live Preview
@@ -23,7 +23,7 @@ function ProjectCards() {
 					</li>
 					<li>
 						<a
-							href="/https://github.com/HimansuWebCoder/Cats-Friend-Hooks"
+							href="https://github.com/HimansuWebCoder/Cats-Friend-Hooks"
 							target="_blank"
 						>
 							Source Code

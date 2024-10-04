@@ -2,7 +2,7 @@
 	/*	width: 50vw;*/
 	/*	max-width: 50%;*/
 	max-width: 600px;
-	height: 200px;
+	height: auto;
 	/*	border: 1px solid blue;*/
 	overflow: hidden;
 	padding: 5px;
@@ -31,7 +31,7 @@
 
 .project-view-card > img {
 	width: 100%;
-	height: 190px;
+	height: 220px;
 	/*	border: 1px solid black;*/
 	border-radius: 10px;
 }
@@ -48,6 +48,15 @@
 	word-break: break-word;
 	text-align: center;
 	font-size: 0.8rem;
+}
+
+.project-info-card > a {
+	text-decoration: none;
+}
+
+#live-image-link {
+	max-width: 20px;
+	height: 20px;
 }
 
 @media screen and (max-width: 571px) {

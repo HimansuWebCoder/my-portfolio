@@ -12,6 +12,8 @@ function Projects() {
 				sourceCodeLink="https://github.com/HimansuWebCoder/Cats-Friend-Hooks"
 				projectImg="/assets/images/cats-friends.png"
 				projectTechInfo="Frontend Project"
+				liveImageLink="/assets/images/link.png"
+				liveImageLinkAlt="live-project-link"
 			/>
 			<ProjectCard
 				title="Robo-Friends Web Application"
@@ -21,11 +23,13 @@ function Projects() {
 				sourceCodeLink="https://github.com/HimansuWebCoder/robofriends"
 				projectImg="/assets/images/robo-friends.png"
 				projectTechInfo="Frontend Project"
+				liveImageLink="/assets/images/link.png"
+				liveImageLinkAlt="live-project-link"
 			/>
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
-			<ProjectCard />
+			<ProjectCard welcome="Coming Soon" />
+			<ProjectCard welcome="Coming Soon" />
+			<ProjectCard welcome="Coming Soon" />
+			<ProjectCard welcome="Coming Soon" />
 		</div>
 	);
 }

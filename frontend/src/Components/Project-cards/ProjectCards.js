@@ -5,6 +5,8 @@ function ProjectCards({
 	description,
 	githubLink,
 	liveLink,
+	liveImageLink,
+	liveImageLinkAlt,
 	sourceCodeLink,
 	projectImg,
 	projectTechInfo,
@@ -17,11 +19,19 @@ function ProjectCards({
 			<div className="project-info-card">
 				<h1>{title}</h1>
 				<h2>{projectTechInfo}</h2>
-				<a href="" rel="noopener noreferrer">
-					Live
+				<a href={liveLink} target="_blank" rel="noopener noreferrer">
+					<img
+						id="live-image-link"
+						src={liveImageLink}
+						alt={liveImageLinkAlt}
+					/>
 				</a>
-				<a href="" rel="noopener noreferrer">
-					Live
+				<a
+					href={sourceCodeLink}
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					{sourceCodeLink}
 				</a>
 				<hr className="bar" />
 				<p>{description}</p>

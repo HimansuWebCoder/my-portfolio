@@ -14,6 +14,7 @@ function Projects() {
 				projectTechInfo="Frontend Project"
 				liveImageLink="/assets/images/link.png"
 				liveImageLinkAlt="live-project-link"
+				sourceUrl="Source Code"
 			/>
 			<ProjectCard
 				title="Robo-Friends Web Application"
@@ -25,6 +26,7 @@ function Projects() {
 				projectTechInfo="Frontend Project"
 				liveImageLink="/assets/images/link.png"
 				liveImageLinkAlt="live-project-link"
+				sourceUrl="Source Code"
 			/>
 			<ProjectCard welcome="Coming Soon" />
 			<ProjectCard welcome="Coming Soon" />

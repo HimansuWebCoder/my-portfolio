@@ -8,6 +8,7 @@ function ProjectCards({
 	liveImageLink,
 	liveImageLinkAlt,
 	sourceCodeLink,
+	sourceUrl,
 	projectImg,
 	projectTechInfo,
 }) {
@@ -31,7 +32,7 @@ function ProjectCards({
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					{sourceCodeLink}
+					{sourceUrl}
 				</a>
 				<hr className="bar" />
 				<p>{description}</p>

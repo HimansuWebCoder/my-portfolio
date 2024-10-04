@@ -15,15 +15,19 @@
 	margin: auto;
 	padding: 10px;
 	border-radius: 10px;
-	/*	background: #fff7fc;*/
-	background: hsla(200, 90%, 20%, 0.9);
-	color: white;
+	/*	background: #d1e9f6;*/
+	/*	background-color: #e8f9fd;*/
+	background-color: #e5d9f2;
+	/*	background: hsla(200, 90%, 20%, 0.9);*/
+	color: black;
+	font-family: monospace;
+	font-weight: initial;
 	font-size: 1rem;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	text-align: center;
-	box-shadow: 1px 30px 50px 1px black;
+	box-shadow: 1px 1px 2px 0.4px black;
 }
 
 @media screen and (max-width: 425px) {

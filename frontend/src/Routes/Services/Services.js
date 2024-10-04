@@ -5,13 +5,13 @@ function Services() {
 	return (
 		<div className="Services-container">
 			<div className="Service-bucket">
-				<h1> Frontend Web Application Development</h1>
+				<h2> Frontend Web Application Development</h2>
 				<hr />
-				<h1> Backend Web Application Development</h1>
+				<h2> Backend Web Application Development</h2>
 				<hr />
-				<h1> Full-Stack Web Application Development</h1>
+				<h2> Full-Stack Web Application Development</h2>
 				<hr />
-				<h1> Website Development</h1>
+				<h2> Website Development</h2>
 				<hr />
 
 				<h3>Category</h3>

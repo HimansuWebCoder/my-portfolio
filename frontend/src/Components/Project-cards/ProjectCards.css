@@ -11,29 +11,15 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	word-break: break-word;
-	font-size: 1rem;
+	/*	word-break: break-word;*/
 	border-radius: 10px;
 	box-shadow: 0.1px 0.1px 1px 0.2px black;
 }
 
-.project-view-card {
-	/*	width: 40%;*/
-	max-width: 200px;
-	/*	height: 95%;*/
-	/*	border: 1px inset red;*/
-	border-color: grey;
-	border-radius: 10px;
-	display: flex;
-	flex-direction: column;
-	padding: 5px;
-}
-
 .project-view-card > img {
 	width: 100%;
-	height: 220px;
+	height: 100%;
 	/*	border: 1px solid black;*/
-	border-radius: 10px;
 }
 
 .project-info-card {
@@ -47,7 +33,18 @@
 	/*	padding: 5px;*/
 	word-break: break-word;
 	text-align: center;
-	font-size: 0.8rem;
+}
+
+#project-title {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 2rem;
+	font-weight: 800;
+}
+
+#project-tech-info {
+	font-family: "EB Garamond", serif;
+	font-weight: 200;
+	font-size: 1.8rem;
 }
 
 .project-info-card > a {
@@ -59,11 +56,10 @@
 	height: 20px;
 }
 
-@media screen and (max-width: 571px) {
+@media screen and (max-width: 360px) {
 	.project-cards-container {
 		max-width: 90%;
 		height: auto;
-		font-size: 0.6rem;
 		overflow: hidden;
 	}
 	.project-view-card {
@@ -74,19 +70,42 @@
 	.project-info-card {
 		width: 50%;
 		height: 100%;
-		font-size: 0.6rem;
 		overflow: auto;
 		padding: 10px;
 	}
+
+	#project-title {
+		font-size: 1.5rem;
+	}
+
+	#project-tech-info {
+		font-size: 1.5rem;
+	}
 }
 
-@media screen and (max-width: 963) and (min-width: 532px) {
+@media screen and (max-width: 320px) {
+	.project-cards-container {
+		max-width: 90%;
+		height: auto;
+		overflow: hidden;
+	}
 	.project-view-card {
-		max-width: 100%;
+		max-width: 500px;
+		height: 200px;
 	}
 
 	.project-info-card {
-		/*		width: 100%;*/
-		max-width: 100%;
+		width: 50%;
+		height: 100%;
+		overflow: auto;
+		padding: 10px;
+	}
+
+	#project-title {
+		font-size: 1.3rem;
+	}
+
+	#project-tech-info {
+		font-size: 1.3rem;
 	}
 }

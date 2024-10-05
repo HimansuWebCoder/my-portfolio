@@ -28,10 +28,6 @@ function Projects() {
 				liveImageLinkAlt="live-project-link"
 				sourceUrl="Source Code"
 			/>
-			<ProjectCard welcome="Coming Soon" />
-			<ProjectCard welcome="Coming Soon" />
-			<ProjectCard welcome="Coming Soon" />
-			<ProjectCard welcome="Coming Soon" />
 		</div>
 	);
 }

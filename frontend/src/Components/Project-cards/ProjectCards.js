@@ -18,8 +18,8 @@ function ProjectCards({
 				<img src={projectImg} alt="project-image" />
 			</div>
 			<div className="project-info-card">
-				<h1>{title}</h1>
-				<h2>{projectTechInfo}</h2>
+				<h1 id="project-title">{title}</h1>
+				<h2 id="project-tech-info">{projectTechInfo}</h2>
 				<a href={liveLink} target="_blank" rel="noopener noreferrer">
 					<img
 						id="live-image-link"
@@ -42,35 +42,3 @@ function ProjectCards({
 }
 
 export default ProjectCards;
-
-/*
-<ul>
-					<li>
-						<a
-							href={githubLink}
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							Himansu
-						</a>
-					</li>
-					<li>
-						<a
-							href={liveLink}
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							GitHub Live Preview
-						</a>
-					</li>
-					<li>
-						<a
-							href={sourceCodeLink}
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							Source Code
-						</a>
-					</li>
-				</ul>
-				*/

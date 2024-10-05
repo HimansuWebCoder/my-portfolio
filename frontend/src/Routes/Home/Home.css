@@ -1,6 +1,6 @@
 .home-card-container {
 	width: 80vw;
-	height: 40vh;
+	height: auto;
 	/*	border: 1px dashed black;*/
 	margin: auto;
 	margin-top: 150px;

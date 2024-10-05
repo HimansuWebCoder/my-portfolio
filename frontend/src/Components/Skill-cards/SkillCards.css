@@ -4,13 +4,14 @@
 	height: auto;
 	/*	border: 1px solid black;*/
 	margin: auto;
-	margin-top: 10px;
+	/*	margin-top: 10px;*/
 	padding: 10px;
 	font-size: 1rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	font-family: "EB Garamond", serif;
 }
 
 .skill-img {
@@ -23,6 +24,8 @@
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	/*	background: linear-gradient(#974ec3, #fff2cc, #b2a4ff);*/
+	border-radius: 20px;
 }
 
 .skills-sub-container {

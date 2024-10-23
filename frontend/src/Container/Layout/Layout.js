@@ -9,7 +9,7 @@ function Layout() {
 		<div className="layout-container">
 			<Navigation />
 			<Outlet />
-			<Footer />
+			{/*<Footer />*/}
 		</div>
 	);
 }

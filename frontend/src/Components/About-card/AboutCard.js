@@ -9,6 +9,17 @@ function AboutCard() {
 			</div>
 			<hr className="bar" />
 			<h1 id="profile-name">Himansu Naik</h1>
+			<div className="links-container">
+				<Links
+					url="https://www.linkedin.com/in/himansunaik/"
+					img="/assets/images/linkedin.png"
+				/>
+
+				<Links
+					url="https://github.com/HimansuWebCoder"
+					img="/assets/images/github.png"
+				/>
+			</div>
 			<div className="about-description-container">
 				<p id="profile-intro">
 					Hii, I am Himansu, Full-stack Web Developer, Welcome to my
@@ -36,17 +47,6 @@ function AboutCard() {
 						connect to discuss how I can contribute to your team
 					</i>
 				</p>
-			</div>
-			<div className="links-container">
-				<Links
-					url="https://www.linkedin.com/in/himansunaik/"
-					img="/assets/images/linkedin.png"
-				/>
-
-				<Links
-					url="https://github.com/HimansuWebCoder"
-					img="/assets/images/github.png"
-				/>
 			</div>
 		</div>
 	);

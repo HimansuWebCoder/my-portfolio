@@ -19,9 +19,16 @@
 }
 
 .project-view-card > img {
-	width: 100%;
-	height: 100%;
+	max-width: 100%;
+	min-height: 100%;
 	/*	border: 1px solid black;*/
+}
+
+.project-view-card {
+	max-width: 400px;
+	height: auto;
+	/*	border: 1px solid black;*/
+	margin: auto;
 }
 
 .project-info-card {

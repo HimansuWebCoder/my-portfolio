@@ -2,14 +2,10 @@ import "./SkillCards.css";
 
 function SkillCard({ src, skillName }) {
 	return (
-		<div className="skills-container">
-			<div className="skills-main-container">
-				<div className="skills-sub-container">
-					<a>
-						<img className="skill-img" src={src} alt="img" />
-					</a>
-					<h1>{skillName}</h1>
-				</div>
+		<div className="skills-card-container">
+			<div className="skills-sub-container">
+				<img className="skill-img" src={src} alt="img" />
+				<h1>{skillName}</h1>
 			</div>
 		</div>
 	);

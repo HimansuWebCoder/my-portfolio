@@ -76,3 +76,39 @@
 		max-width: 500px;
 	}
 }
+
+@media screen and (max-width: 320px) {
+	.skills-container {
+		max-width: 100%;
+		height: auto;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		/*		background: linear-gradient(#974ec3, #fff2cc, #b2a4ff);*/
+		border-radius: 20px;
+	}
+
+	.skills-card-container {
+		max-width: 100px;
+		height: auto;
+	}
+
+	.skill-img {
+		width: 100%;
+		height: auto;
+	}
+
+	.skills-sub-container {
+		max-width: 300px;
+		height: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: 1px solid black;
+		margin: 10px;
+	}
+
+	.skills-sub-container > h1 {
+		display: none;
+	}
+}

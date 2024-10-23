@@ -19,8 +19,8 @@ function ProjectCards({
 					<img src={projectImg} alt="project-image" />
 				</div>
 				<div className="project-info-card">
-					<h1 id="project-title">{title}</h1>
-					<h2 id="project-tech-info">{projectTechInfo}</h2>
+					{/*<h1 id="project-title">{title}</h1>*/}
+					{/*<h2 id="project-tech-info">{projectTechInfo}</h2>*/}
 					<a
 						href={liveLink}
 						target="_blank"
@@ -40,7 +40,6 @@ function ProjectCards({
 						{sourceUrl}
 					</a>
 					<hr className="bar" />
-					<p>{description}</p>
 				</div>
 			</div>
 		</div>

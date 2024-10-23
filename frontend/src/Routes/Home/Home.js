@@ -4,7 +4,9 @@ import "./Home.css";
 function Home() {
 	return (
 		<div className="home-card-container">
-			<RocketCard />
+			<div className="home-card-sub-container">
+				<RocketCard />
+			</div>
 		</div>
 	);
 }

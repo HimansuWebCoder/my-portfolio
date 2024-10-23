@@ -1,9 +1,15 @@
 .home-card-container {
-	width: 80vw;
-	height: auto;
-	/*	border: 1px dashed black;*/
+	width: 100vw;
+	height: 100vh;
 	margin: auto;
 	margin-top: 150px;
+	/*	border: 1px solid black;*/
 	display: flex;
 	justify-content: center;
+}
+
+.home-card-sub-container {
+	width: 800px;
+	height: 400px;
+	/*	border: 1px solid black;*/
 }

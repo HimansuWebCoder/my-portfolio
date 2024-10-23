@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 .project-cards-container {
-	/*	width: 50vw;*/
-	/*	max-width: 50%;*/
-	max-width: 600px;
+	/*	width: 100vw;*/
+	/*	height: 100vh;*/
+	/*	background: linear-gradient(#f9f5f6, #e8ffce, #279eff);*/
+}
+
+.project-cards-sub-container {
+	max-width: 400px;
 	height: auto;
 	/*	border: 1px solid blue;*/
 	overflow: hidden;
@@ -15,7 +19,7 @@
 	/*	word-break: break-word;*/
 	border-radius: 10px;
 	box-shadow: 0.1px 0.1px 1px 0.2px black;
-	/*	background: linear-gradient(#f9f5f6, #e8ffce, #279eff);*/
+	margin: 20px;
 }
 
 .project-view-card {

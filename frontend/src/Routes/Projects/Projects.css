@@ -4,4 +4,8 @@
 	/*	border: 1px solid black;*/
 	margin-top: 10px;
 	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	/*	background: linear-gradient(#f9f5f6, #e8ffce, #279eff);*/
 }

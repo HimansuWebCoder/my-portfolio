@@ -1,12 +1,12 @@
 .nav-container {
-	max-width: 100vw;
-	height: 50px;
+	max-width: 200vw;
+	height: auto;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-content: center;
 	align-items: center;
-	padding: 20px;
+	padding: 10px;
 	/*	word-wrap: break-word;*/
 	word-break: break-word;
 	position: sticky;

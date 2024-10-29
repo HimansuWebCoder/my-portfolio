@@ -16,7 +16,7 @@ function ProjectCards({
 		<div className="project-cards-container">
 			<div className="project-cards-sub-container">
 				<div className="project-view-card">
-					<img src={projectImg} alt="project-image" />
+					<img id="thumbnail" src={projectImg} alt="project-image" />
 				</div>
 				<div className="project-info-card">
 					{/*<h1 id="project-title">{title}</h1>*/}

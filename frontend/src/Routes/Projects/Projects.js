@@ -10,7 +10,7 @@ function Projects() {
 				githubLink="https://github.com/HimansuWebCoder"
 				liveLink="https://profile-store-mini-social-media.onrender.com"
 				sourceCodeLink="https://github.com/HimansuWebCoder/Profile-Store-Mini-Social-Media"
-				projectImg="/assets/images/profile-store.png"
+				projectImg="/assets/images/thumbnail profile store.jpg"
 				projectTechInfo="FullStack Project"
 				liveImageLink="/assets/images/link.png"
 				liveImageLinkAlt="live-project-link"

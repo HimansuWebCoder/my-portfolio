@@ -8,7 +8,7 @@ function Projects() {
 				title="Profile Store Mini Social Media"
 				description="A Profile Store mini social media where user connected with other professionals."
 				githubLink="https://github.com/HimansuWebCoder"
-				liveLink="https://profile-store-mini-social-media.onrender.com"
+				liveLink="https://profile-store-frontend.vercel.app"
 				sourceCodeLink="https://github.com/HimansuWebCoder/Profile-Store-Mini-Social-Media"
 				projectImg="/assets/images/thumbnail profile store.jpg"
 				projectTechInfo="FullStack Project"

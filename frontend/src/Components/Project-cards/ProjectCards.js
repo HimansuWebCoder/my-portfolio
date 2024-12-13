@@ -22,6 +22,7 @@ function ProjectCards({
 					{/*<h1 id="project-title">{title}</h1>*/}
 					{/*<h2 id="project-tech-info">{projectTechInfo}</h2>*/}
 					<a
+					    className="redirect-project-link"
 						href={liveLink}
 						target="_blank"
 						rel="noopener noreferrer"

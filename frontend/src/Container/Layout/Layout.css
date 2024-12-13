@@ -5,7 +5,6 @@
 
 .h-bars {
 	width:85%;
-	height: 40px;
-	height: auto;
+	height: 2px;
 	border-color: grey;
 }

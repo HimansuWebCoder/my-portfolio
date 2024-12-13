@@ -50,6 +50,12 @@
 	text-align: center;
 }
 
+	.redirect-project-link {
+		background-color: yellow;
+		padding: 1px;
+		border-radius: 4px;
+	}
+
 #project-title {
 	font-family: "Josefin Sans", sans-serif;
 	/*	font-family: "Luckiest Guy", cursive;*/
@@ -97,6 +103,7 @@
 		overflow: auto;
 		padding: 10px;
 	}
+
 
 	#thumbnail {
 		width: 100%;

@@ -61,7 +61,7 @@
 	font-family: "EB Garamond", serif;
 	/*	font-family: "Courgette", cursive;*/
 	font-weight: 400;
-	font-size: 1.3rem;
+	font-size: 1.9rem;
 }
 .profile-img-container {
 	width: 50%;
@@ -100,7 +100,7 @@
 	}
 
 	#profile-intro {
-		font-size: 1.5rem;
+		font-size: 1rem;
 	}
 
 	.intro-section-names {

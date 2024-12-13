@@ -24,8 +24,9 @@
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	/*	background: linear-gradient(#974ec3, #fff2cc, #b2a4ff);*/
-	border-radius: 20px;
+	background-color: #27374D;
+/*		background: linear-gradient(#974ec3, #fff2cc, #b2a4ff);*/
+	border-radius: 0px;
 }
 
 .skills-sub-container {
@@ -33,6 +34,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+  flex-grow: 1; /* Allows items to grow if space is available */
+  flex-shrink: 1; /* Allows items to shrink if necessary */
 	/*	border: 1px solid rgba(255, 255, 255, 0.3);*/
 /*	border: 1px solid white;*/
 	margin: 10px;
@@ -111,6 +114,8 @@
 		align-items: center;
 /*		border: 1px solid white;*/
 		margin: 10px;
+		  flex-grow: 1; /* Allows items to grow if space is available */
+		  flex-shrink: 1; /* Allows items to shrink if necessary */
 	}
 
 	.skills-sub-container > h1 {

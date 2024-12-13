@@ -21,6 +21,8 @@ function Layout() {
 			<ProjectCards/>
 			<hr className="h-bars"/>
 			<Contact/>
+			<hr className="h-bars"/>
+
 			{/*<Outlet />*/}
 			{/*<Footer />*/}
 		</div>

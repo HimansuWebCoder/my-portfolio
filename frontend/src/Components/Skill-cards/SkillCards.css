@@ -29,13 +29,16 @@
 	border-radius: 0px;
 }
 
+.skills-card-container {
+    flex-grow: 1; /* Allows items to grow if space is available */
+  flex-shrink: 1; /* Allows items to shrink if necessary */
+}
+
 .skills-sub-container {
 	max-width: 500px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-  flex-grow: 1; /* Allows items to grow if space is available */
-  flex-shrink: 1; /* Allows items to shrink if necessary */
 	/*	border: 1px solid rgba(255, 255, 255, 0.3);*/
 /*	border: 1px solid white;*/
 	margin: 10px;

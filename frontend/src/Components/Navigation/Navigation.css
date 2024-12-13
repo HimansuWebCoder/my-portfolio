@@ -39,6 +39,7 @@
 	align-items: center;
 	margin: auto;
 	padding: 0;
+	display: none;
 }
 
 .links-container > li > a {
@@ -66,15 +67,31 @@
 	margin: 1px;
 }*/
 
+/*.menu-container {
+	display: none;
+}*/
+
 @media screen and (max-width: 567px) {
 	.routes-container {
 		max-width: 250px;
 	}
+
+	.menu-container {
+	display: block;
+  }
 }
 
 @media screen and (max-width: 350px) {
 	.routes-container {
 		max-width: 170px;
+		font-size: 1rem;
+	}
+
+	.links-container {
+		display: none;
+	}
+
+	.links-container > li > a {
 		font-size: 1rem;
 	}
 }

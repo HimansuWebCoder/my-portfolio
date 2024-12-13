@@ -3,16 +3,19 @@
 .Services-container {
 	max-width: 100%;
 	height: auto;
-	/*	border: 1px solid black;*/
-	margin-top: 20px;
+/*		border: 1px solid white;*/
+	margin: 5px;
 	display: flex;
 	justify-content: center;
-	flex-direction: column;
+	align-items: center;
+   flex-wrap: wrap;
+   margin-bottom: 50px;
 }
 
 .Service-bucket {
-	max-width: 800px;
-	height: auto;
+/*	width: 90%;*/
+    width:300px;
+	height: 250px;
 	/*	border: 1px solid black;*/
 	margin: auto;
 	padding: 10px;
@@ -20,11 +23,12 @@
 	/*	background: #d1e9f6;*/
 	/*	background-color: #e8f9fd;*/
 	/*	background-color: #e5d9f2;*/
-	background-color: #d2e0fb;
+/*	background-color: #1B2430;*/
+	background-color: #1597BB;
 	border-radius: 10px;
-	box-shadow: 1px 1px 1px 1px #79a3b1;
+/*	box-shadow: 1px 1px 1px 1px #79a3b1;*/
 	/*	background: hsla(200, 90%, 20%, 0.9);*/
-	color: black;
+	color: white;
 	font-size: 1rem;
 	display: flex;
 	justify-content: center;
@@ -33,10 +37,16 @@
 	/*	box-shadow: 1px 1px 2px 0.4px black;*/
 	font-family: "Montserrat", sans-serif;
 	font-weight: 400;
+	margin-top: 5px;
 }
 
+.Service-bucket > img {
+	max-width: 100px;
+	height: 100px;
+	margin: auto;
+}
 @media screen and (max-width: 425px) {
 	.Service-bucket {
-		font-size: 0.6rem;
+		font-size: 1rem;
 	}
 }

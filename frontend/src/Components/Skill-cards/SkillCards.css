@@ -34,13 +34,14 @@
 	justify-content: center;
 	align-items: center;
 	/*	border: 1px solid rgba(255, 255, 255, 0.3);*/
-	border: 1px solid white;
+/*	border: 1px solid white;*/
 	margin: 10px;
 	word-break: break-word;
 	justify-content: space-evenly;
 	padding: 10px;
-	border-radius: 20px;
+	border-radius: 5px;
 	flex-shrink: 0;
+	background-color: #31363F;
 
 	/*	background: rgba(255, 255, 255, 0.1);*/
 	/*	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);*/
@@ -85,7 +86,7 @@
 		justify-content: center;
 		flex-wrap: wrap;
 		/*		background: linear-gradient(#974ec3, #fff2cc, #b2a4ff);*/
-		border-radius: 20px;
+		border-radius: 50px;
 	}
 
 	.skills-card-container {
@@ -104,7 +105,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		border: 1px solid black;
+/*		border: 1px solid white;*/
 		margin: 10px;
 	}
 

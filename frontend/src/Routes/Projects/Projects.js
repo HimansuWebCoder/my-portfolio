@@ -19,6 +19,18 @@ function Projects() {
 				sourceUrl="Source Code"
 			/>
 			<ProjectCard
+				title="FullStack Blog Platform"
+				description="Blog platform"
+				githubLink="https://github.com/HimansuWebCoder/Full_Stack_Blog_Website"
+				liveLink="https://blog-app-frontend-gjg4grgyddbpb5f4.israelcentral-01.azurewebsites.net/"
+				sourceCodeLink="https://github.com/HimansuWebCoder/Full_Stack_Blog_Website"
+				projectImg="/assets/images/blog.png"
+				projectTechInfo="Frontend Project"
+				liveImageLink="/assets/images/link.png"
+				liveImageLinkAlt="live-project-link"
+				sourceUrl="Source Code"
+			/>
+			<ProjectCard
 				title="Cats-Friends Web Applications"
 				description="A cats-friends colony to choose your cats"
 				githubLink="https://github.com/HimansuWebCoder"
@@ -30,6 +42,7 @@ function Projects() {
 				liveImageLinkAlt="live-project-link"
 				sourceUrl="Source Code"
 			/>
+			
 		</div>
 	);
 }

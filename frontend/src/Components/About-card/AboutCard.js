@@ -19,7 +19,7 @@ function AboutCard() {
 				<Links
 				    id="social-link2"
 					url="https://github.com/HimansuWebCoder"
-					img="/assets/images/github.png"
+					img="/assets/images/github.webp"
 				/>
 			</div>
 			<div className="about-description-container">

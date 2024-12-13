@@ -19,7 +19,7 @@ function ProjectCards({
 					<img id="thumbnail" src={projectImg} alt="project-image" />
 				</div>
 				<div className="project-info-card">
-					{/*<h1 id="project-title">{title}</h1>*/}
+					<h1 id="project-title">{title}</h1>
 					{/*<h2 id="project-tech-info">{projectTechInfo}</h2>*/}
 					<a
 					    className="redirect-project-link"

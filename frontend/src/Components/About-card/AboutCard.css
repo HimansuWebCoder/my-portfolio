@@ -29,6 +29,19 @@
 	border-color: grey;
 }
 
+.intro-section-names {
+/*	background-color: HSL(215, 50%, 10%);*/
+/*    background-color: #31363F;*/
+	padding: 2px;
+	text-align: center;
+	max-width: 300px;
+	height: auto;
+	margin:auto;
+	font-size: 1.5rem;
+/*	text-shadow: 1px 2px 4px red;*/
+	text-shadow: 1px 2px 4px #7A0BC0;
+}
+
 #logo {
 	width: 200px;
 	height: 200px;
@@ -40,6 +53,8 @@
 	font-family: "Bangers", system-ui;
 	font-weight: 10;
 	letter-spacing: 0.2rem;
+	font-size: 3rem;
+	text-shadow: 1px 2px 4px blue;
 }
 
 #profile-intro {
@@ -77,11 +92,18 @@
 
 @media screen and (max-width: 425px) {
 	#profile-name {
-		font-size: 1.5rem;
+		font-size: 2rem;
 		word-spacing: 1;
+		border-style: solid dashed dotted double;
+		border-width: 1px;
+		padding: 5px;
 	}
 
 	#profile-intro {
+		font-size: 1rem;
+	}
+
+	.intro-section-names {
 		font-size: 1rem;
 	}
 }

@@ -17,6 +17,7 @@
 /*	border:1px double white;*/
 /*	box-shadow: 1px 1px 10px 0.3px white;*/
 		margin-bottom: 10px;
+		font-size: 1.7rem;
 }
 
 .contact-sub-container > div {
@@ -30,4 +31,11 @@
 .contact-sub-container > div > a {
 	text-decoration: none;
 	color:white;
+	border-bottom: 1px solid white;
+}
+
+@media screen and (max-width:360px) {
+	.contact-sub-container {
+		font-size: 1.2rem;
+	}
 }

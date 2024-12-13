@@ -45,6 +45,11 @@
 	text-decoration: none;
 	margin: 5px;
 	color: white;
+	font-size: 1.5rem;
+	background-color: #31363F;
+	padding: 5px;
+	border-radius: 5px;
+	font-weight: bold;
 }
 
 /*.menu-container {

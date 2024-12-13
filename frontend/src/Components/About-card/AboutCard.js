@@ -22,9 +22,14 @@ function AboutCard() {
 					img="/assets/images/github.webp"
 				/>
 			</div>
+			<div className="intro-section-names">
+			<h1>About Me</h1>
+			</div>
+			<hr className="h-bars"/>
 			<div className="about-description-container">
 				<p id="profile-intro">
-					Hii, I am Himansu, Full-stack Web Developer, Welcome to my
+					Hii,👋 I am 
+🅷🅸🅼🅰🅽🆂🆄, 🇫​​🇺​​🇱​​🇱​-​🇸​​🇹​​🇦​​🇨​​🇰​ ​ ​🇩​​🇪​​🇻​​🇪​​🇱​​🇴​​🇵​​🇪​​🇷​, Welcome to my
 					portfolio. I’m a passionate full-stack developer with
 					hands-on experience in building web applications from front
 					to back. I specialize in creating efficient, scalable, and
@@ -43,7 +48,7 @@ function AboutCard() {
 					applications that meet users' needs. I believe in writing
 					clean, maintainable code and continuously improving my
 					skills through learning and hands-on experience.
-					<br />{" "}
+					<br />
 					<i>
 						Feel free to explore my projects, and I’d love to
 						connect to discuss how I can contribute to your team

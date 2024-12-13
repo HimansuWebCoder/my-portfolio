@@ -16,10 +16,19 @@ function Layout() {
 			{/*<RocketCard/>*/}
 			<AboutCard/>
 			<hr className="h-bars"/>
+			<div className="intro-section-names">
+			<h1>Skills</h1>
+			</div>
 			<Skills/>
 			<hr className="h-bars"/>
+			<div className="intro-section-names">
+			<h1>Projects</h1>
+			</div>
 			<ProjectCards/>
 			<hr className="h-bars"/>
+			<div className="intro-section-names">
+			<h1>Stay In Touch</h1>
+			</div>
 			<Contact/>
 			<hr className="h-bars"/>
 

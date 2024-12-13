@@ -11,11 +11,13 @@ function AboutCard() {
 			<h1 id="profile-name">Himansu Naik</h1>
 			<div className="links-container">
 				<Links
+				    id="social-link"
 					url="https://www.linkedin.com/in/himansunaik/"
 					img="/assets/images/linkedin.png"
 				/>
 
 				<Links
+				    id="social-link2"
 					url="https://github.com/HimansuWebCoder"
 					img="/assets/images/github.png"
 				/>
@@ -27,7 +29,7 @@ function AboutCard() {
 					hands-on experience in building web applications from front
 					to back. I specialize in creating efficient, scalable, and
 					user-friendly solutions using modern web technologies.{" "}
-					<strong>My expertise includes</strong>:<br />
+					{/*<strong>My expertise includes</strong>:<br />
 					<i>Frontend Development</i>: HTML, CSS, JavaScript, React.js
 					<br />
 					<i>Backend Development</i>: Node.js, Express, REST APIs{" "}
@@ -35,7 +37,7 @@ function AboutCard() {
 					<i>Cloud Services</i>: Cloudinary (for media storage),
 					Render or AWS (for deployment)
 					<br /> <i>Other Tools</i>: Git, Docker, Passport.js (for
-					authentication)
+					authentication)*/}
 					<br /> I enjoy solving complex problems and thrive in
 					environments where I can contribute to building robust
 					applications that meet users' needs. I believe in writing

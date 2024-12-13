@@ -1,13 +1,14 @@
 .logo-container {
 	width: 20%;
 	max-width: 60px;
-	aspect-ratio: 1 / 1;
+/*	aspect-ratio: 1 / 1;*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 1px solid black;
-	border-radius: 50%;
+/*	border: 1px solid white;*/
+/*	border-radius: 50%;*/
 	overflow: hidden;
+	margin-left: 20px;
 }
 
 .home-route-link {
@@ -19,5 +20,5 @@
 	height: 100%;
 	object-fit: cover;
 	object-position: center;
-	border-radius: 50%;
+/*	border-radius: 50%;*/
 }

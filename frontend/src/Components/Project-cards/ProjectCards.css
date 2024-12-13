@@ -17,8 +17,9 @@
 	flex-wrap: wrap;
 	justify-content: space-around;
 	/*	word-break: break-word;*/
+	border:1px solid white;
 	border-radius: 10px;
-	box-shadow: 0.1px 0.1px 1px 0.2px black;
+/*	box-shadow: 0.1px 0.1px 5px 0.1px white;*/
 	margin: 20px;
 }
 
@@ -54,7 +55,7 @@
 	/*	font-family: "Luckiest Guy", cursive;*/
 	font-size: 2rem;
 	/*	font-weight: 1;*/
-	color: blue;
+	color: white;
 }
 
 #project-tech-info {
@@ -65,6 +66,7 @@
 
 .project-info-card > a {
 	text-decoration: none;
+	color:white;
 }
 
 #live-image-link {

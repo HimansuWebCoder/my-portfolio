@@ -58,6 +58,15 @@
 	padding: 5px;
 }
 
+#social-link {
+	margin-left: 5px;
+}
+
+#social-link2 {
+	margin-left: 5px;
+}
+
+
 .profile-img-container > img {
 	width: 100%;
 	height: 100%;

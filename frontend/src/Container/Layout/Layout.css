@@ -2,3 +2,10 @@
 	/*	background: linear-gradient(#f69d3c, #3f87a6);*/
 	/*	max-width: 500px;*/
 }
+
+.h-bars {
+	width:85%;
+	height: 40px;
+	height: auto;
+	border-color: grey;
+}

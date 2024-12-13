@@ -23,9 +23,6 @@ function Navigation() {
 						<Link to="/projects">Projects</Link>
 					</li>
 					<li>
-						<Link to="/services">Services</Link>
-					</li>
-					<li>
 						<Link to="/contact">Contact</Link>
 					</li>
 				</ul>

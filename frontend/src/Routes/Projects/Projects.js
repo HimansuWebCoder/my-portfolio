@@ -1,8 +1,11 @@
 import ProjectCard from "../../Components/Project-cards/ProjectCards";
+import "./Project.css";
+
+// className="flex h-auto justify-center flex-wrap  max-w-[100vw]  mt-[10px] mb-[50px]"
 
 function Projects() {
 	return (
-		<div className="flex h-auto justify-center flex-wrap  max-w-[100vw] border border-black mt-[10px] mb-[50px]">
+		<div className="project-box-container">
 			<ProjectCard
 				title="Profile Store Mini Social Media"
 				description="A Profile Store mini social media where user connected with other professionals."

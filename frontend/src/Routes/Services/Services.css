@@ -38,6 +38,12 @@
 	font-family: "Montserrat", sans-serif;
 	font-weight: 400;
 	margin-top: 5px;
+	transition: all linear 0.3s;
+}
+
+
+.Service-bucket:hover {
+	transform: scale(1.1);
 }
 
 .Service-bucket > img {
@@ -45,6 +51,8 @@
 	height: 100px;
 	margin: auto;
 }
+
+
 @media screen and (max-width: 425px) {
 	.Service-bucket {
 		font-size: 1rem;

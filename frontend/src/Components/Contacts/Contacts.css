@@ -7,7 +7,7 @@
 /* background: #303841;*/
 /* background: #1B2430;*/
 	color:white;
-	margin-top: 10px;
+/*	margin-top: 10px;*/
 	padding: 20px;
 	display: flex;
 	justify-content: center;
@@ -23,7 +23,7 @@
 .contact-sub-container > div {
 	width: 100%;
 	height: auto;
-	margin: 10px;
+/*	margin: 10px;*/
 	/*	border: 1px solid black;*/
 	word-break: break-word;
 }

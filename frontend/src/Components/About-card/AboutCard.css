@@ -54,7 +54,11 @@
 	font-weight: 10;
 	letter-spacing: 0.2rem;
 	font-size: 3rem;
-	text-shadow: 1px 2px 4px blue;
+	color:transparent;
+/*	text-shadow: 1px 2px 4px blue;*/
+	background: linear-gradient(45deg, #FEF9EF, #79E0EE);
+ -webkit-background-clip: text;
+ background-clip:text;
 }
 
 #profile-intro {
@@ -94,7 +98,7 @@
 	#profile-name {
 		font-size: 2rem;
 		word-spacing: 1;
-		border-style: solid dashed dotted double;
+/*		border-style: solid dashed dotted double;*/
 		border-width: 1px;
 		padding: 5px;
 	}

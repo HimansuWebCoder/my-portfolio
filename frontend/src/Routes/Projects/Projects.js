@@ -36,7 +36,7 @@ function Projects() {
 				githubLink="https://github.com/HimansuWebCoder"
 				liveLink="https://profile-store-frontend.vercel.app"
 				sourceCodeLink="https://github.com/HimansuWebCoder/Profile-Store-Mini-Social-Media"
-				projectImg="/assets/images/thumbnail profile store.jpg"
+				projectImg="/assets/images/profile-store-mini-social-media.jpg"
 				projectTechInfo="FullStack Project"
 				liveImageLink="/assets/images/link.png"
 				liveImageLinkAlt="live-project-link"

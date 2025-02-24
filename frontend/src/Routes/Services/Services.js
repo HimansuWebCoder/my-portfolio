@@ -14,6 +14,11 @@ function Services() {
 				<h2> Web Development</h2>
 				<p>Ensuring that that a website meets the correct standards, and also ensuring it's well maintained</p>
 			</div>
+			<div className="Service-bucket">
+			    <img src="assets/images/google-business.jpg" alt="responsive design" />
+				<h2>Google Business Setup</h2>
+				<p>Google Business setup for more client reaching with more search to find your business easily</p>
+			</div>
 		</div>
 	);
 }

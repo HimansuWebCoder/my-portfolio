@@ -31,7 +31,11 @@
 .contact-sub-container > div > a {
 	text-decoration: none;
 	color:white;
-	border-bottom: 1px solid white;
+/*	border-bottom: 1px solid white;*/
+	text-decoration-line: underline;
+	text-decoration-thickness: 0.1px;
+	text-decoration-color: yellow;
+	text-indent: 1px;
 }
 
 @media screen and (max-width:360px) {

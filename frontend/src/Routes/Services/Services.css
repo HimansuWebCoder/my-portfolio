@@ -48,6 +48,17 @@
 	margin: auto;
 }
 
+.bucket1 {
+  background-color: ##1597BB;
+}
+
+.bucket2 {
+ background-color: #AD88C6;
+}
+
+.bucket3 {
+ background-color: #5C88C4;
+}
 
 @media screen and (max-width: 425px) {
 	.Service-bucket {

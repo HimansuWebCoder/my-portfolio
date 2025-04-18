@@ -3,7 +3,7 @@ import "./AboutCard.css";
 
 function AboutCard() {
 	return (
-		<div className="about-container">
+		<div id="about" className="about-container anchor-offset">
 			<div className="profile-img-container">
 				<img src="/logo.jpg" alt="img" />
 			</div>
@@ -23,7 +23,7 @@ function AboutCard() {
 				/>
 			</div>
 			<div className="intro-section-names">
-			<h1>About Me</h1>
+			<h1 id="about-header">About Me</h1>
 			</div>
 			<hr className="h-bars"/>
 			<div className="about-description-container">

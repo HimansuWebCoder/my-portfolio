@@ -47,10 +47,18 @@ function Navigation() {
           'aria-labelledby': 'basic-button',
         }}
       >
-        <MenuItem onClick={handleClose}>About</MenuItem>
-        <MenuItem onClick={handleClose}>Skills</MenuItem>
-        <MenuItem onClick={handleClose}>Projects</MenuItem>
-        <MenuItem onClick={handleClose}>Contact</MenuItem>
+        <MenuItem onClick={handleClose}>
+        	<a className="menu-links" href="#about">About</a>
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
+        <a className="menu-links" href="#skills">Skills</a>
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
+         <a className="menu-links" href="#projects">Projects</a>
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
+        <a className="menu-links" href="#contact">Contact</a>
+        </MenuItem>
       </Menu>
     </div>
 			{/*<div className="routes-container">

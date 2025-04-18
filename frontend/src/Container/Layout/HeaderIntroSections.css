@@ -1,0 +1,31 @@
+.main-container {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;         /* p-4 */
+  border-color: #facc15; /* Tailwind yellow-500 */
+}
+
+.header-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;        /* p-2 */
+}
+
+.custom-heading {
+  font-family: "Anton SC", sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;      /* text-2xl */
+  letter-spacing: 2px;
+}
+
+@media (min-width: 640px) {
+  .custom-heading {
+    font-size: 2.25rem;   /* sm:text-4xl */
+  }
+}

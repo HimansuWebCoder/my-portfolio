@@ -13,10 +13,15 @@ function ProjectCards({
 	projectTechInfo,
 }) {
 	return (
-		<div className="project-cards-container">
+		<div id="projects" className="project-cards-container anchor-offset">
 			<div className="project-cards-sub-container">
 				<div className="project-view-card">
-					<img id="thumbnail" src={projectImg} alt="project-image" />
+					<a className="redirect-project-link"
+						href={liveLink}
+						target="_blank"
+						rel="noopener noreferrer">
+						<img id="thumbnail" src={projectImg} alt="project-image" />
+						</a>
 				</div>
 				<div className="project-info-card">
 					<h1 id="project-title">{title}</h1>

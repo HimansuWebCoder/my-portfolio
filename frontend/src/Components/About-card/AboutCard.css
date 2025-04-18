@@ -39,7 +39,15 @@
 	margin:auto;
 	font-size: 1.5rem;
 /*	text-shadow: 1px 2px 4px red;*/
-	text-shadow: 1px 2px 4px #7A0BC0;
+/*	text-shadow: 1px 2px 4px #7A0BC0;*/
+}
+
+#about-header {
+	font-family: 'Anton SC', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem; /* default for text-2xl */
+    letter-spacing: 2px;
 }
 
 #logo {
@@ -62,8 +70,8 @@
 }
 
 #profile-intro {
-	font-family: "EB Garamond", serif;
-	/*	font-family: "Courgette", cursive;*/
+/*	font-family: "EB Garamond", serif;*/
+		font-family: "Courgette", cursive;
 	font-weight: 400;
 	font-size: 1.9rem;
 }

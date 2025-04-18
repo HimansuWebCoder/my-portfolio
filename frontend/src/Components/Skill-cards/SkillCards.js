@@ -2,10 +2,10 @@ import "./SkillCards.css";
 
 function SkillCard({ src, skillName }) {
 	return (
-		<div className="skills-card-container">
+		<div id="skills" className="skills-card-container  anchor-offset">
 			<div className="skills-sub-container">
 				<img className="skill-img" src={src} alt="img" />
-				<h1>{skillName}</h1>
+				<h1 id="skills-name">{skillName}</h1>
 			</div>
 		</div>
 	);

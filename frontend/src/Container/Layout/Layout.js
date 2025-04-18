@@ -8,6 +8,7 @@ import ProjectCards from "../../Routes/Projects/Projects";
 import Contact from "../../Routes/Contact/Contact";
 import Services from "../../Routes/Services/Services";
 import Footer from "../../Components/Footer/Footer";
+import HeaderIntros from "./HeaderIntroSections";
 import "./Layout.css";
 
 function Layout() {
@@ -17,24 +18,18 @@ function Layout() {
 			{/*<RocketCard/>*/}
 			<AboutCard/>
 			<hr className="h-bars"/>
-			<div className="intro-section-names">
-			<h1>Skills</h1>
-			</div>
+			<HeaderIntros name="ABOUT ME" headerIntroLineWidth="180" />
 			<Skills/>
 			<hr className="h-bars"/>
-			<div className="intro-section-names">
-			<h1>Services</h1>
-			</div>
-						<Services />
+			<HeaderIntros name="Services" headerIntroLineWidth="180" />
+			<Services />
 			<hr className="h-bars"/>
 			<div className="intro-section-names">
-			<h1>Projects</h1>
+			<HeaderIntros name="Projects I've Built" headerIntroLineWidth="180" />
 			</div>
 			<ProjectCards/>
 			<hr className="h-bars"/>
-			<div className="intro-section-names">
-			<h1>Get In Touch</h1>
-			</div>
+			<HeaderIntros name="Get In Touch" headerIntroLineWidth="180" />
 			<Contact/>
 			<hr className="h-bars"/>
 

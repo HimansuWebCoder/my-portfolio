@@ -1,9 +1,37 @@
 import Links from "../Links/Links";
 import "./AboutCard.css";
 
+import { useRef } from 'react';
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
+
 function AboutCard() {
+
+	 const containerRef = useRef();
+
+  useGSAP(() => {
+    gsap.fromTo(
+      '.box',
+      { opacity: 0, y: 50 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 1,
+        scrollTrigger: {
+          trigger: '.box',
+          start: 'top 80%',
+          end: 'top 30%',
+          scrub: true,
+        },
+      }
+    );
+  }, { scope: containerRef });
+
 	return (
-		<div id="about" className="about-container anchor-offset">
+		<div id="about" ref={containerRef} className="about-container anchor-offset">
 			<div className="profile-img-container">
 				<img src="/logo.jpg" alt="img" />
 			</div>
@@ -26,7 +54,7 @@ function AboutCard() {
 			<h1 id="about-header">About Me</h1>
 			</div>
 			<hr className="h-bars"/>
-			<div className="about-description-container">
+			<div className="about-description-container box">
 				<p id="profile-intro">
 					Hii,👋 I am 
 🅷🅸🅼🅰🅽🆂🆄, 🇫​​🇺​​🇱​​🇱​-​🇸​​🇹​​🇦​​🇨​​🇰​ ​ ​🇩​​🇪​​🇻​​🇪​​🇱​​🇴​​🇵​​🇪​​🇷​, Welcome to my

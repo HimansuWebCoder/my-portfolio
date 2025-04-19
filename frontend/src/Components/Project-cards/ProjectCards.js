@@ -1,6 +1,13 @@
 import StatusIndicator from "../StatusIndicator/StatusIndicator";
 import "./ProjectCards.css";
 
+import { useRef } from 'react';
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
+
 function ProjectCards({
 	title,
 	description,
@@ -14,9 +21,31 @@ function ProjectCards({
 	projectTechInfo,
 	status,
 }) {
+
+	const containerRef = useRef();
+
+  useGSAP(() => {
+    gsap.fromTo(
+      '.box',
+      { opacity: 0, y: 50 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 1,
+        scrollTrigger: {
+          trigger: '.box',
+          start: 'top 80%',
+          end: 'top 30%',
+          scrub: true,
+        },
+      }
+    );
+  }, { scope: containerRef });
+
+
 	return (
-		<div className="project-cards-container">
-			<div className="project-cards-sub-container">
+		<div ref={containerRef} className="project-cards-container">
+			<div className="project-cards-sub-container box">
 				<div className="project-view-card">
 					<a className="redirect-project-link"
 						href={liveLink}

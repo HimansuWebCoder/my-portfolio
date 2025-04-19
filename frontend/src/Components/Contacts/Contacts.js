@@ -6,10 +6,39 @@ import contact from "../../assets/contact.png";
 import call from "../../assets/call.png";
 import email from "../../assets/email.png";
 
+import { useRef } from 'react';
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+gsap.registerPlugin(ScrollTrigger);
+
 function Contact() {
+
+
+   const containerRef = useRef();
+
+  useGSAP(() => {
+    gsap.fromTo(
+      '.box',
+      { opacity: 0, y: 50 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 1,
+        scrollTrigger: {
+          trigger: '.box',
+          start: 'top 80%',
+          end: 'top 30%',
+          scrub: true,
+        },
+      }
+    );
+  }, { scope: containerRef });
+
 	return (
-		<div className="contact-container">
-  <div className="contact-info">
+		<div ref={containerRef} className="contact-container">
+  <div className="contact-info box">
     {/*<h1 className="contact-title">Our Address</h1>*/}
     <div className="info-sections">
 
@@ -51,7 +80,7 @@ function Contact() {
     </div>
   </div>
 
-  <div className="contact-image">
+  <div className="contact-image box">
     <img src={contact} alt="contact us image" />
   </div>
 </div>

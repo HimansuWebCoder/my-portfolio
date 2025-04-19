@@ -15,7 +15,7 @@ function ProjectCards({
 	status,
 }) {
 	return (
-		<div id="projects" className="project-cards-container anchor-offset">
+		<div className="project-cards-container">
 			<div className="project-cards-sub-container">
 				<div className="project-view-card">
 					<a className="redirect-project-link"

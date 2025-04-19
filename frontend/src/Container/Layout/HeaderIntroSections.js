@@ -1,10 +1,10 @@
 import "./HeaderIntroSections.css"
 
-function HeaderIntros({name}) {
+function HeaderIntros({name, ids}) {
 	return (
-          <div className="main-container">
+          <div id={ids} className="main-container anchor-offset">
               <div className="header-container">
-                <h1 className="custom-heading">{name}</h1>
+                <h1  className="custom-heading">{name}</h1>
               </div>
         </div>
 

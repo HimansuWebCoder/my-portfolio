@@ -7,7 +7,7 @@ import email from "../../assets/email.png";
 
 function Contact() {
 	return (
-		<div id="contact" className="contact-container">
+		<div className="contact-container">
   <div className="contact-info">
     {/*<h1 className="contact-title">Our Address</h1>*/}
     <div className="info-sections">

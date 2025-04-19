@@ -7,7 +7,7 @@
 }
 
 .anchor-offset {
-  scroll-margin-top: 15rem;
+  scroll-margin-top: 3rem;
 }
 
 html, body {
@@ -44,3 +44,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+

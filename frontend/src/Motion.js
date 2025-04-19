@@ -23,10 +23,12 @@ export default function Drag() {
 }
 
 const ball = {
-    width: 30,               // ⬅️ smaller, more cursor-like
+    width: 30,
     height: 30,
     borderRadius: "50%",
-    backgroundColor: "yellow",
+    backgroundImage: "url('/assets/images/code.webp')", // ✅ correct string syntax
+    backgroundSize: "cover",      // ✅ makes sure the image fits
+    backgroundPosition: "center", // ✅ centers the image inside the div
 };
 
 const spring = {

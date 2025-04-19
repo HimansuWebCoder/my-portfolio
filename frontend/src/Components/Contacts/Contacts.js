@@ -1,7 +1,8 @@
 import RocketCard from "../../Components/Rocket-card/RocketCard";
 import "./Contacts.css";
 import location from "../../assets/location.png";
-import contact from "../../assets/contact3.png";
+import contact1 from "../../assets/contact3.png";
+import contact from "../../assets/contact.png";
 import call from "../../assets/call.png";
 import email from "../../assets/email.png";
 

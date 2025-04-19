@@ -1,9 +1,10 @@
 .project-box-container {
   max-width: 100vw;
-  margin-top: 10px;
-  margin-block: 50px;
+/*  margin-top: 10px;*/
+/*  margin-block: 50px;*/
   height: auto;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+/*  border:1px solid white;*/
 }

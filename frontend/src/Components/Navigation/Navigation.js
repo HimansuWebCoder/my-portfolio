@@ -54,6 +54,9 @@ function Navigation() {
         <a className="menu-links" href="#skills">Skills</a>
         </MenuItem>
         <MenuItem onClick={handleClose}>
+         <a className="menu-links" href="#services">Services</a>
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
          <a className="menu-links" href="#projects">Projects</a>
         </MenuItem>
         <MenuItem onClick={handleClose}>

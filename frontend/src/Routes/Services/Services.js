@@ -3,7 +3,7 @@ import "./Services.css";
 
 function Services() {
 	return (
-		<div className="Services-container">
+		<div id="services" className="Services-container anchor-offset">
 			<div className="Service-bucket bucket1">
 			    <img src="https://saif-portfolio-ruby.vercel.app/static/media/service-1.e6772bd53c577af49129f09d020b488f.svg" alt="responsive design" />
 				<h2 className="services-heading"> Responsive Design</h2>

@@ -1,0 +1,39 @@
+.status-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 10px;
+}
+
+/* Completed */
+.completed {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Ongoing - Blinking orange */
+.ongoing {
+  background-color: #FFA500;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+/* Pending */
+.pending {
+  background-color: #808080;
+}

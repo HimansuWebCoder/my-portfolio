@@ -18,10 +18,10 @@ function Layout() {
 			{/*<RocketCard/>*/}
 			<AboutCard/>
 			<hr className="h-bars"/>
-			<HeaderIntros name="ABOUT ME" headerIntroLineWidth="180" />
+			<HeaderIntros name="Tech Stack & Skills" headerIntroLineWidth="180" />
 			<Skills/>
 			<hr className="h-bars"/>
-			<HeaderIntros name="Services" headerIntroLineWidth="180" />
+			<HeaderIntros name="My Services" headerIntroLineWidth="180" />
 			<Services />
 			<hr className="h-bars"/>
 			<div className="intro-section-names">

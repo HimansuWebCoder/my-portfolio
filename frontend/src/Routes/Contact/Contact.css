@@ -1,8 +1,8 @@
-.contact-container {
-	width: 100vw;
+.main-contact-container {
+	max-width: 100%;
 	height: auto;
 	display: flex;
-	/*	border: 1px solid black;*/
+/*	border: 1px solid white;*/
 	justify-content: center;
 	margin: auto;
 /*	margin-top: 10px;*/

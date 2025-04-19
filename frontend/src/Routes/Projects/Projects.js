@@ -1,4 +1,5 @@
 import ProjectCard from "../../Components/Project-cards/ProjectCards";
+// import StatusIndicator from "../../Components/StatusIndicator/StatusIndicator";
 import "./Project.css";
 
 // className="flex h-auto justify-center flex-wrap  max-w-[100vw]  mt-[10px] mb-[50px]"
@@ -17,19 +18,9 @@ function Projects() {
 					liveImageLink="/assets/images/link.png"
 					liveImageLinkAlt="live-project-link"
 					sourceUrl="Source Code"
+					status="completed"
 				/>
-				<ProjectCard
-				title="Tripathy Finanical Consultant"
-				description="A Financial Consulatant Website"
-				githubLink="https://github.com/HimansuWebCoder"
-				liveLink="https://tripathy-financial-consulstant-dsqn.vercel.app/"
-				sourceCodeLink="https://github.com/HimansuWebCoder/tripathy_financial_consulstant"
-				projectImg="/assets/images/tripathy.png"
-				projectTechInfo="FullStack Project"
-				liveImageLink="/assets/images/link.png"
-				liveImageLinkAlt="live-project-link"
-				sourceUrl="Source Code"
-			/>
+
 			<ProjectCard
 				title="Achievers Institute"
 				description="A Profile Store mini social media where user connected with other professionals."
@@ -41,6 +32,20 @@ function Projects() {
 				liveImageLink="/assets/images/link.png"
 				liveImageLinkAlt="live-project-link"
 				sourceUrl="Source Code"
+				status="ongoing"
+			/>
+				<ProjectCard
+				title="Tripathy Finanical Consultant"
+				description="A Financial Consulatant Website"
+				githubLink="https://github.com/HimansuWebCoder"
+				liveLink="https://tripathy-financial-consulstant-dsqn.vercel.app/"
+				sourceCodeLink="https://github.com/HimansuWebCoder/tripathy_financial_consulstant"
+				projectImg="/assets/images/tripathy.png"
+				projectTechInfo="FullStack Project"
+				liveImageLink="/assets/images/link.png"
+				liveImageLinkAlt="live-project-link"
+				sourceUrl="Source Code"
+				status="pending"
 			/>
 			<ProjectCard
 				title="Profile Store Mini Social Media"
@@ -53,6 +58,7 @@ function Projects() {
 				liveImageLink="/assets/images/link.png"
 				liveImageLinkAlt="live-project-link"
 				sourceUrl="Source Code"
+				status="ongoing"
 			/>
 			<ProjectCard
 				title="Cats-Friends Web Applications"
@@ -65,6 +71,7 @@ function Projects() {
 				liveImageLink="/assets/images/link.png"
 				liveImageLinkAlt="live-project-link"
 				sourceUrl="Source Code"
+				status="completed"
 			/>
 			<ProjectCard
 				title="FullStack Blog Platform"
@@ -77,6 +84,7 @@ function Projects() {
 				liveImageLink="/assets/images/link.png"
 				liveImageLinkAlt="live-project-link"
 				sourceUrl="Source Code"
+				status="pending"
 			/>
 
 			

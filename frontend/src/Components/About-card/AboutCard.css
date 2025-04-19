@@ -76,7 +76,7 @@
 	font-weight: 400;
 	font-size: 1.9rem;
 }
-.profile-img-container {
+/*.profile-img-container {
 	width: 50%;
 	max-width: 200px;
 	aspect-ratio: 1 / 1;
@@ -85,7 +85,7 @@
 	overflow: hidden;
 	padding: 5px;
 }
-
+*/
 #social-link {
 	margin-left: 5px;
 }
@@ -94,23 +94,23 @@
 	margin-left: 5px;
 }
 
-
+/*
 .profile-img-container > img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
 	object-position: top;
 	border-radius: 50%;
-}
+}*/
 
 @media screen and (max-width: 425px) {
-	#profile-name {
+	/*#profile-name {
 		font-size: 2rem;
 		word-spacing: 1;
-/*		border-style: solid dashed dotted double;*/
+		border-style: solid dashed dotted double;
 		border-width: 1px;
 		padding: 5px;
-	}
+	}*/
 
 	#profile-intro {
 		font-size: 1rem;

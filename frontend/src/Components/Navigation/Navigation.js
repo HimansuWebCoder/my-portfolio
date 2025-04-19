@@ -48,6 +48,9 @@ function Navigation() {
         }}
       >
         <MenuItem onClick={handleClose}>
+        	<a className="menu-links" href="#home">Home</a>
+        </MenuItem>
+        <MenuItem onClick={handleClose}>
         	<a className="menu-links" href="#about">About</a>
         </MenuItem>
         <MenuItem onClick={handleClose}>

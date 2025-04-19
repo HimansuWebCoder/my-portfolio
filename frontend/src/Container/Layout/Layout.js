@@ -2,6 +2,7 @@ import { Outlet, Link } from "react-router-dom";
 import Motion from "../../Motion"; // path to the Drag component
 
 import Navigation from "../../Components/Navigation/Navigation";
+import HomeCard from "../../Components/Home/Home";
 import AboutCard from "../../Components/About-card/AboutCard";
 import RocketCard from "../../Components/Rocket-card/RocketCard";
 import Skills from "../../Routes/Skills/Skills";
@@ -18,6 +19,8 @@ function Layout() {
 			<Motion/>
 			<Navigation />
 			{/*<RocketCard/>*/}
+			<HomeCard/>
+			<HeaderIntros ids="about" name="About Me" headerIntroLineWidth="180" />
 			<AboutCard/>
 			<hr className="h-bars"/>
 			<HeaderIntros ids="skills" name="Tech Stack & Skills" headerIntroLineWidth="180" />

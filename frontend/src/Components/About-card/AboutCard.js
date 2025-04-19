@@ -31,28 +31,7 @@ function AboutCard() {
   }, { scope: containerRef });
 
 	return (
-		<div id="about" ref={containerRef} className="about-container anchor-offset">
-			<div className="profile-img-container">
-				<img src="/logo.jpg" alt="img" />
-			</div>
-			<hr className="bar" />
-			<h1 id="profile-name">Himansu Naik</h1>
-			<div className="links-container">
-				<Links
-				    id="social-link"
-					url="https://www.linkedin.com/in/himansunaik/"
-					img="/assets/images/linkedin.png"
-				/>
-
-				<Links
-				    id="social-link2"
-					url="https://github.com/HimansuWebCoder"
-					img="/assets/images/github.webp"
-				/>
-			</div>
-			<div className="intro-section-names">
-			<h1 id="about-header">About Me</h1>
-			</div>
+		<div ref={containerRef} className="about-container ">
 			<hr className="h-bars"/>
 			<div className="about-description-container box">
 				<p id="profile-intro">

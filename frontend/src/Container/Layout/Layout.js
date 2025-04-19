@@ -1,4 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
+import Motion from "../../Motion"; // path to the Drag component
 
 import Navigation from "../../Components/Navigation/Navigation";
 import AboutCard from "../../Components/About-card/AboutCard";
@@ -14,6 +15,7 @@ import "./Layout.css";
 function Layout() {
 	return (
 		<div className="layout-container">
+			<Motion/>
 			<Navigation />
 			{/*<RocketCard/>*/}
 			<AboutCard/>

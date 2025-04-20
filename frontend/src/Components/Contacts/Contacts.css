@@ -36,7 +36,7 @@ margin-bottom: 40px;
 
 /* Right-side Image */
 .contact-image {
-  width: 200px;
+  width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -128,7 +128,7 @@ margin-bottom: 40px;
 }
 
 
-@media (min-width: 640px) {
+@media (max-width: 640px) {
   .contact-image {
     width: 400px;
   }

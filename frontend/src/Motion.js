@@ -32,9 +32,9 @@ const ball = {
 };
 
 const spring = {
-    damping: 3,
-    stiffness: 50,
-    restDelta: 0.001,
+    damping: 20,
+    stiffness: 100,
+    restDelta: 0.5,
 };
 
 export function useFollowPointer(ref) {

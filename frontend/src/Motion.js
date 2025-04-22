@@ -32,7 +32,7 @@ const ball = {
 };
 
 const spring = {
-    damping: 20,
+    damping: 10,
     stiffness: 100,
     restDelta: 0.5,
 };

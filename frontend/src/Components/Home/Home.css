@@ -36,7 +36,8 @@
 #profile-name {
 	/*font-family: "Spicy Rice", serif;
 	font-weight: 5;*/
-	font-family: "Bangers", system-ui;
+/*	font-family: "Bangers", system-ui;*/
+	font-family: "Bangers";
 	font-weight: 10;
 	letter-spacing: 0.2rem;
 	font-size: 3rem;

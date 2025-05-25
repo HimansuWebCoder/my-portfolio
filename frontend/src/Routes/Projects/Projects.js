@@ -7,6 +7,19 @@ import "./Project.css";
 function Projects() {
 	return (
 		<div className="project-box-container">
+		<ProjectCard
+					title="Pihu Makeup Studio & Salon"
+					description="A Beauty Spa Salon Website to visit for beauty"
+					githubLink="https://github.com/HimansuWebCoder"
+					liveLink="https://pihu-makeup-studio-and-salon.vercel.app"
+					sourceCodeLink="https://github.com/HimansuWebCoder/pihu-makeup-studio-and-salon"
+					projectImg="/assets/images/pihu.png"
+					projectTechInfo="Frontend Project"
+					liveImageLink="/assets/images/link.png"
+					liveImageLinkAlt="live-project-link"
+					sourceUrl="Source Code"
+					status="ongoing"
+				/>
 			<ProjectCard
 					title="Sili Salon & Spa"
 					description="A Beauty Spa Salon Website to visit for beauty"

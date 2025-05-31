@@ -38,7 +38,7 @@ function Projects() {
 				title="Achievers Institute"
 				description="A Profile Store mini social media where user connected with other professionals."
 				githubLink="https://github.com/HimansuWebCoder"
-				liveLink="http://achievers-institute.vercel.app/"
+				liveLink="https://www.achievers-institute.in"
 				sourceCodeLink="https://github.com/HimansuWebCoder/achievers-institute"
 				projectImg="/assets/images/achievers-institute.png"
 				projectTechInfo="Frontend Project"

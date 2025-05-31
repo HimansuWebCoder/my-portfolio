@@ -11,7 +11,7 @@ function Projects() {
 					title="Pihu Makeup Studio & Salon"
 					description="A Beauty Spa Salon Website to visit for beauty"
 					githubLink="https://github.com/HimansuWebCoder"
-					liveLink="https://pihu-makeup-studio-and-salon.vercel.app"
+					liveLink="https://pihumakeupstudio.com"
 					sourceCodeLink="https://github.com/HimansuWebCoder/pihu-makeup-studio-and-salon"
 					projectImg="/assets/images/pihu.png"
 					projectTechInfo="Frontend Project"

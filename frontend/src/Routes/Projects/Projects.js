@@ -18,7 +18,7 @@ function Projects() {
 					liveImageLink="/assets/images/link.png"
 					liveImageLinkAlt="live-project-link"
 					sourceUrl="Source Code"
-					status="ongoing"
+					status="completed"
 				/>
 			<ProjectCard
 					title="Sili Salon & Spa"

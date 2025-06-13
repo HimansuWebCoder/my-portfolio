@@ -76,7 +76,7 @@ function Contact() {
           <img className="icon-image" src={email} alt="email" />
         </div>
         <div className="text-container">
-          <p className="contact-links" >naikhimansu546@gmail.com</p>
+          <p className="contact-links" >hello@himansuwebcoder.in</p>
         </div>
       </div>
 

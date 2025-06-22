@@ -44,7 +44,7 @@ function Services() {
 			</div>
 			<div className="Service-bucket bucket3 box">
 			    <img src="assets/images/google-business.jpg" alt="responsive design" />
-				<h2 className="services-heading">Google Business Setup</h2>
+				<h2 className="services-heading">Google My Business Setup</h2>
 				<p className="services-info">Google Business setup for more client reaching with more search to find your business easily</p>
 			</div>
 		</div>

@@ -86,7 +86,7 @@ function Projects() {
 				sourceUrl="Source Code"
 				status="completed"
 			/>
-			<ProjectCard
+			{/*<ProjectCard
 				title="FullStack Blog Platform"
 				description="Blog platform"
 				githubLink="https://github.com/HimansuWebCoder/Full_Stack_Blog_Website"
@@ -98,7 +98,7 @@ function Projects() {
 				liveImageLinkAlt="live-project-link"
 				sourceUrl="Source Code"
 				status="pending"
-			/>
+			/>*/}
 
 			
 		</div>

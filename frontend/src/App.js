@@ -7,6 +7,9 @@ import Skills from "./Routes/Skills/Skills";
 import Projects from "./Routes/Projects/Projects";
 import Services from "./Routes/Services/Services";
 import Contact from "./Routes/Contact/Contact";
+// import Testimonial from "./Routes/Testimonials/testimonial";
+import Testimonial from "./Components/Testimonials/testimonial";
+
 import "./App.css";
 import "./index.css";
 
@@ -22,6 +25,7 @@ function App() {
             <Route path="projects" element={<Projects />} />
             <Route path="services" element={<Services />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="testimonials" element={<Testimonial />} />
           </Route>
         </Routes>
       </BrowserRouter>

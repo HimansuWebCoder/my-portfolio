@@ -11,7 +11,7 @@
 	text-align: center;
 	/*	background: linear-gradient(#a084dc, #f8e8ee, #b9eddd);*/
 	border-radius: 10px;
-	margin-bottom: 25px;
+/*	margin-bottom: 1px;*/
 }
 
 .profile-img-container {
@@ -63,7 +63,14 @@
 		font-size: 2rem;
 		word-spacing: 1;
 /*		border-style: solid dashed dotted double;*/
-		border-width: 1px;
-		padding: 5px;
+/*		border-width: 1px;*/
+/*		padding: 5px;*/
+	}
+
+	#social-link {
+	}
+
+	#social-link2 {
+      margin-left: 50px;
 	}
 }

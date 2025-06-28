@@ -32,7 +32,7 @@ function AboutCard() {
 
 	return (
 		<div ref={containerRef} className="about-container ">
-			<hr className="h-bars"/>
+			{/*<hr className="h-bars"/>*/}
 			<div className="about-description-container box">
 				<p id="profile-intro">
 					A <b>Full-Stack Developer</b> & <b>Freelancer</b> helping businesses build modern, responsive websites using client-focused web technologies.

@@ -35,7 +35,7 @@ function HomeCard() {
 			<div className="profile-img-container">
 				<img src="/logo.jpg" alt="img" />
 			</div>
-			<hr className="bar" />
+			{/*<hr className="bar" />*/}
 			<h1 id="profile-name">Himansu Naik</h1>
 			<div className="links-container">
 				<Links

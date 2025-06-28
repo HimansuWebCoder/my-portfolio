@@ -48,13 +48,13 @@ function Contact() {
       {/* Location */}
       <div className="info-block">
         <div className="icon-container">
-          <a href="https://www.linkedin.com/in/himansunaik" target="_blank">
-           <img className="icon-image" src="/assets/images/linkedin.png" alt="location" />
+          <a href="https://x.com/Himansuwebcoder" target="_blank">
+           <img className="icon-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAA/0lEQVR4AbXPIazCMACE4d+L2qoZFEGSIGcRc/gJJB5XMzGJmK9EN0HMi+qaibkKVF1txdQe4g0YzPK5yyWXHL9TaPNQ89LojH87N1rbJcXkMF4Fk31UMrf34hm14KUeoQxGArALHTMuQD2cAWQfJXOpgTbksGr9ng8qluShJTPhyCdx63POg7rEim95ZyR68I1ggQpnCEGwyPicw6hZtPEGmnhkycqOio1zm6XuFtyw5XDXfGvuau0dXHzJp8pfBPuhIXO9ZK5ILUCdSvLYMpc6ASBtl3EaC97I4KaFaOCaBE9Zn5jUsVqR2vcTJZO1DdbGoZryVp94Ka/mQfE7f2T3df0WBhLDAAAAAElFTkSuQmCC" alt="location" />
           </a>
         </div>
         <div className="text-container">
           {/*<p>Ak Plaza, near MM Mart, Azad Nagar, UPstar, Sundarpada, Kantilo, Bhubaneswar, Odisha 751002</p>*/}
-        <a className="contact-links" href="https://www.linkedin.com/in/himansunaik" target="_blank">Linkedin</a>
+        <a className="contact-links" href="https://x.com/Himansuwebcoder" target="_blank">Twitter</a>
         </div>
       </div>
 

@@ -83,8 +83,8 @@ const testimonials = [
   {
     id: 3,
     name: "Pritimaya Sahoo",
-    role: "Mobile Developer",
-    company: "Peer Recommendation",
+    role: "Mobile Developer Intern",
+    company: "TecoNico Private Limited",
     content: "Nice Freelancer 👍",
     rating: 5,
     avatar: "https://media.licdn.com/dms/image/v2/D5603AQHElFAz-NoWaQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1675245029560?e=1756339200&v=beta&t=d1hX_N4Xt-0uIGaBNfMAENWjnn1hXwNXvlK6CH3aYQs",

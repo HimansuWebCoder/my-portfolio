@@ -49,7 +49,7 @@ function Projects() {
 			/>
 				<ProjectCard
 				title="Tripathy Finanical Consultant"
-				description="A Financial Consulatant Website"
+				description="A Financial Consultant Website"
 				githubLink="https://github.com/HimansuWebCoder"
 				liveLink="https://tripathy-financial-consulstant-dsqn.vercel.app/"
 				sourceCodeLink="https://github.com/HimansuWebCoder/tripathy_financial_consulstant"

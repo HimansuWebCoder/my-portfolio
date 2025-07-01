@@ -48,7 +48,7 @@ function Projects() {
 				status="completed"
 			/>
 				<ProjectCard
-				title="Tripathy Finanical Consultant"
+				title="Tripathy Financial Consultant"
 				description="A Financial Consultant Website"
 				githubLink="https://github.com/HimansuWebCoder"
 				liveLink="https://tripathy-financial-consulstant-dsqn.vercel.app/"

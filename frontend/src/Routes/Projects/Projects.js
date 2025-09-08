@@ -73,45 +73,6 @@ function Projects() {
 				sourceUrl="Source Code"
 				status="pending"
 			/>
-			<ProjectCard
-				title="Profile Store Mini Social Media"
-				description="A Profile Store mini social media where user connected with other professionals."
-				githubLink="https://github.com/HimansuWebCoder"
-				liveLink="https://profile-store-frontend.vercel.app"
-				sourceCodeLink="https://github.com/HimansuWebCoder/Profile-Store-Mini-Social-Media"
-				projectImg="/assets/images/profile-store-mini-social-media.jpg"
-				projectTechInfo="FullStack Project"
-				liveImageLink="/assets/images/link.png"
-				liveImageLinkAlt="live-project-link"
-				sourceUrl="Source Code"
-				status="ongoing"
-			/>
-			<ProjectCard
-				title="Cats-Friends Web Applications"
-				description="A cats-friends colony to choose your cats"
-				githubLink="https://github.com/HimansuWebCoder"
-				liveLink="https://himansuWebCoder.github.io/Cats-Friend-Hooks/"
-				sourceCodeLink="https://github.com/HimansuWebCoder/Cats-Friend-Hooks"
-				projectImg="/assets/images/cats-friends.png"
-				projectTechInfo="Frontend Project"
-				liveImageLink="/assets/images/link.png"
-				liveImageLinkAlt="live-project-link"
-				sourceUrl="Source Code"
-				status="completed"
-			/>
-			{/*<ProjectCard
-				title="FullStack Blog Platform"
-				description="Blog platform"
-				githubLink="https://github.com/HimansuWebCoder/Full_Stack_Blog_Website"
-				liveLink="https://blog-app-frontend-gjg4grgyddbpb5f4.israelcentral-01.azurewebsites.net/"
-				sourceCodeLink="https://github.com/HimansuWebCoder/Full_Stack_Blog_Website"
-				projectImg="/assets/images/blog.png"
-				projectTechInfo="Frontend Project"
-				liveImageLink="/assets/images/link.png"
-				liveImageLinkAlt="live-project-link"
-				sourceUrl="Source Code"
-				status="pending"
-			/>*/}
 		</div>
 	)
 }

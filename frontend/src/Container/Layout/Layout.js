@@ -45,9 +45,13 @@ function Layout() {
 			<div className="intro-section-names">
 				<HeaderIntros
 					ids="projects"
-					name="Projects I've Built"
+					name="My Work That Speaks"
 					headerIntroLineWidth="180"
 				/>
+				<h3 className="text-gray-400 font-poppins py-2">
+					Every project is a step towards helping businesses reach
+					more people
+				</h3>
 			</div>
 			<ProjectCards />
 			<HeaderIntros

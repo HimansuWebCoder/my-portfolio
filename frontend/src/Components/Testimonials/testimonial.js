@@ -145,7 +145,7 @@ const Testimonials = () => {
                 <img
                   src={testimonial.avatar || '/placeholder.svg'}
                   alt={testimonial.name}
-                  className="w-10 h-10 rounded-full border-2 border-gray-700 object-cover"
+                  className="w-10 h-10 aspect-[1/1] rounded-full border-2 border-gray-700 object-cover"
                 />
                 <div>
                   <div className="font-semibold text-white text-sm">

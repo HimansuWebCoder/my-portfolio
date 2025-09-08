@@ -26,7 +26,7 @@ function Projects() {
 				githubLink="https://github.com/HimansuWebCoder"
 				liveLink="https://pihumakeupstudio.com"
 				sourceCodeLink="https://github.com/HimansuWebCoder/pihu-makeup-studio-and-salon"
-				projectImg="/assets/images/pihu.png"
+				projectImg="/assets/images/pihu-makeup-studio-img.png"
 				projectTechInfo="Frontend Project"
 				liveImageLink="/assets/images/link.png"
 				liveImageLinkAlt="live-project-link"

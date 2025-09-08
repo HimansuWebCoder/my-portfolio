@@ -1,4 +1,4 @@
-import Testimonials from "../../Components/Testimonials/testimonial"
+import Testimonials from '../../Components/Testimonials/testimonial'
 
 function Testimonial() {
   return (
